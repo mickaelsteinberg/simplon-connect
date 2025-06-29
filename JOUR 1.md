@@ -7,7 +7,6 @@ Aujourd’hui, vous posez les fondations. Le but est d’installer un projet Rea
 À la fin de la journée, vous devez être capables de :
 - Expliquer ce qu’est une librairie comme React, et pourquoi on l’utilise.
 - Installer un projet React moderne avec Vite et npm.
-- Expliquer la différence entre l'installation par CDN et par npm
 - Identifier et expliquer les fichiers clés dans un projet React.
 - Écrire et afficher un composant React simple à l’écran.
 - Travailler en binôme/trinôme, documenter votre avancée, et présenter votre code oralement.
@@ -22,7 +21,8 @@ Aujourd’hui, vous posez les fondations. Le but est d’installer un projet Rea
 
 Livrable attendu : _projet React fonctionnel lancé localement._
 - Installer Node.js si ce n’est pas fait.
-- Créer un projet React avec Vite.
+- Créer un projet React avec Vite, grâce à npm.
+- Expliquer ce qu'est Vite.
 - Lancer le serveur de développement.
 - Nettoyer le projet : supprimer le code inutile généré par défaut.
 
@@ -52,6 +52,41 @@ Livrable attendu : _un composant MemberCard.jsx avec des données en dur._
 - Importer et afficher ce composant dans App.jsx.
 - Ajouter du style minimal (classe CSS ou Tailwind si vous le souhaitez).
 - Afficher plusieurs cartes.
+
+```js
+export const members = [
+  {
+    firstName: "Inès",
+    lastName: "Dupont",
+    tech: "React",
+    message: "Toujours partante pour un nouveau challenge frontend !",
+  },
+  {
+    firstName: "Liam",
+    lastName: "Nguyen",
+    tech: "Laravel",
+    message: "Le back c’est ma passion, mais j’apprivoise React petit à petit.",
+  },
+  {
+    firstName: "Amina",
+    lastName: "Benali",
+    tech: "Vue.js",
+    message: "Pro du CSS, j’adore soigner les détails visuels.",
+  },
+  {
+    firstName: "Noé",
+    lastName: "Durand",
+    tech: "Node.js",
+    message: "Le JS côté serveur, c’est mon truc. Je suis ici pour monter en fullstack.",
+  },
+  {
+    firstName: "Clara",
+    lastName: "Morel",
+    tech: "Python",
+    message: "J’ai un faible pour les API propres et bien documentées.",
+  },
+];
+```
 
 **Jalon 3 :** Plusieurs MemberCard sont affichées à l’écran. Le composant est clair, bien indenté.
 
