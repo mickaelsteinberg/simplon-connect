@@ -12,13 +12,14 @@ Aujourd’hui, vous posez les fondations. Le but est d’installer un projet Rea
 - Écrire et afficher un composant React simple à l’écran.
 - Travailler en binôme/trinôme, documenter votre avancée, et présenter votre code oralement.
 
-## MISE EN SITUATION CLIENT (RAPPEL)
+## MISE EN SITUATION CLIENT
 
 **Contexte :** L’équipe de Simplon vous a mandatés pour réaliser un prototype d’application de type “annuaire de promo”. Il faut commencer par mettre en place la base technique du projet. Le projet devra pouvoir évoluer dans les jours à venir, donc la structure doit être propre dès le départ.
 
 ## PLAN DE TRAVAIL
 
 **1. Installation du projet (matin)**
+
 Livrable attendu : _projet React fonctionnel lancé localement._
 - Installer Node.js si ce n’est pas fait.
 - Créer un projet React avec Vite.
@@ -33,6 +34,7 @@ Observer les fichiers importants :
 **Jalon 1 :** Le projet s’affiche dans le navigateur avec un message personnalisé.
 
 **2. Exploration de la structure (milieu de journée)**
+
 Livrable attendu : _compréhension orale et écrite de la structure._
 - Tracer le chemin du rendu : comment un composant React se retrouve dans la page HTML ?
 - Identifier le point d’entrée de l’application.
@@ -42,6 +44,7 @@ Livrable attendu : _compréhension orale et écrite de la structure._
 **Jalon 2 :** Vous êtes capables d’expliquer à quoi servent les fichiers principaux du projet.
 
 **3. Création d’un composant statique (après-midi)**
+
 Livrable attendu : _un composant MemberCard.jsx avec des données en dur._
 - Créer un dossier components.
 - Créer un fichier MemberCard.jsx.
