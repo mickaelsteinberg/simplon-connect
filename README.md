@@ -33,4 +33,6 @@ Retours fréquents : revues de code quotidiennes, présentations intermédiaires
 
 À l’issue de la semaine, vous êtes capables de créer une application React simple mais fonctionnelle, en autonomie, structurée de façon modulaire, avec gestion des interactions, des formulaires, de l’état local, et des effets secondaires. Vous présenterez votre travail au fur et à mesure, et ferez des points d'apprentissage réflexifs réguliers.
 
-# JOUR 1 — DÉCOUVERTE DE REACT & MISE EN PLACE DU PROJET
+## LETS GOOO !
+
+- [JOUR 1 — DÉCOUVERTE DE REACT & MISE EN PLACE DU PROJET](https://github.com/mickaelsteinberg/simplon-connekt/blob/main/JOUR%201.md)
