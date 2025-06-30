@@ -36,3 +36,4 @@ Retours fréquents : revues de code quotidiennes, présentations intermédiaires
 ## LETS GOOO !
 
 - [JOUR 1 — DÉCOUVERTE DE REACT & MISE EN PLACE DU PROJET](https://github.com/mickaelsteinberg/simplon-connekt/blob/main/JOUR%201.md)
+    - [Solution du jour 1](https://github.com/mickaelsteinberg/simplon-connect/blob/jour-1/solutions/jour-1/README.md)
