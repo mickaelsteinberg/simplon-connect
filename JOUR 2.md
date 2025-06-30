@@ -45,10 +45,11 @@
 
 ---
 
-## Évaluation (JOUR 3 matin)
+## ÉVALUATION INTERMÉDIAIRE
 
+En fin de journée, vous présenterez en binôme/trinôme :
 - **Code source** : propre, modulaire, bon usage des props et de la fonction `map`.
-- **Présentation orale (par groupe)** :
+- **Présentation orale** :
   - Quelle structure de fichiers vous avez choisie et pourquoi ?
   - Quelle est la fonction de chaque composant ?
   - Comment les données sont passées et affichées ?
@@ -57,7 +58,7 @@
 
 ## Analyse réflexive
 
-En fin de journée, prends 10 minutes pour répondre à ces questions :
+En fin de journée, vous prenez 10 minutes pour répondre à ces questions :
 - Qu’est-ce que j’ai compris aujourd’hui ?
 - Sur quoi je me suis senti·e à l’aise ? Sur quoi j’ai bloqué ?
 - À quel moment j’ai appris quelque chose d’important ?

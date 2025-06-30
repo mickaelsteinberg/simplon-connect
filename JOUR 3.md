@@ -2,7 +2,7 @@
 
 ## Contexte pédagogique
 
-Maintenant que ton application peut afficher des données, il est temps de la rendre interactive. Le client souhaite pouvoir ajouter un membre via un formulaire. À toi de mettre en place un système d’état (`useState`) pour que l’interface réagisse aux actions de l’utilisateur.
+Maintenant que l'application peut afficher des données, il est temps de la rendre interactive. Le client souhaite pouvoir ajouter un membre via un formulaire. À vous de mettre en place un système d’état (`useState`) pour que l’interface réagisse aux actions de l’utilisateur.
 
 ---
 
@@ -40,14 +40,14 @@ Maintenant que ton application peut afficher des données, il est temps de la re
 
 ---
 
-## Évaluation (JOUR 3 après-midi)
+## Évaluation 
 
 - **Code source** :
   - Présence d’un formulaire contrôlé avec `useState`.
   - Ajout dynamique de nouveaux membres.
   - Composants bien nommés et organisés.
 
-- **Présentation orale (par groupe)** :
+- **Présentation orale** :
   - Démonstration du formulaire fonctionnel.
   - Explication de `useState` : à quoi il sert, comment il fonctionne.
   - Parcours du code : où est l’état ? comment il évolue ?
@@ -59,9 +59,9 @@ Maintenant que ton application peut afficher des données, il est temps de la re
 À faire seul·e ou en binôme :
 - Est-ce que j’ai réussi à rendre mon interface interactive ?
 - Qu’est-ce que j’ai compris dans le fonctionnement de `useState` ?
-- Quelles difficultés ai-je rencontrées ? Comment les ai-je contournées ?
+- Quelles difficultés ai-je rencontrées ? Comment les ai-je contournées/surmontées ?
 - Est-ce que mon code est clair pour quelqu’un d’autre que moi ?
 
 ---
 
-**Conseil :** demain, tu découvriras `useEffect` et le stockage local. Si tu veux aller plus loin, tu peux commencer à réfléchir à comment tu pourrais sauvegarder les membres pour les retrouver même après un refresh.
+**Conseil :** demain, on attaque `useEffect` et le stockage local. Si tu veux aller plus loin, tu peux commencer à réfléchir à comment tu pourrais sauvegarder les membres pour les retrouver même après un refresh.
