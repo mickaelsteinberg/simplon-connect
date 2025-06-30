@@ -61,10 +61,90 @@ Voici les fichiers et répertoires importants :
 | vite.config.js | Configuration de Vite (peu utile ici mais à connaître) | 
 | node_modules/ | Dossier contenant les dépendances node du projet courant |
 
+### Cycle de rendering
+
+![Cycle du rendu React au premier chargement de la page](render.png)
+
 ## 3. Nettoyer le projet de base
 
 Supprime ou modifie les éléments inutiles fournis par défaut :
 - Supprimer le logo et les styles inutiles
 - Nettoyer App.jsx pour repartir de zéro avec une structure claire
 
+## 4. Créer un composant statique : MemberCard
 
+1. Créer un dossier components dans `src`
+2. Créer un fichier `MemberCard.jsx`
+
+```js
+// src/components/MemberCard.jsx
+function MemberCard(props) {
+  return (
+    <div className="member-card">
+      <h2>{props.name}</h2>
+      <p>{props.tech}</p>
+      <p>{props.role}</p>
+    </div>
+  );
+}
+
+export default MemberCard;
+```
+
+## 5. Utiliser le composant dans `App.jsx`
+
+```js
+import MemberCard from "./components/MemberCard";
+
+function App() {
+  return (
+    <div className="app">
+      <h1>Simplon Connect</h1>
+      <MemberCard name="Aline" tech="React" role="Développeuse front-end" />
+      <MemberCard name="Jérôme" tech="Laravel" role="Lead dev" />
+    </div>
+  )
+}
+
+export default App;
+```
+
+## 6. Lancer et vérifier le rendu
+
+```bash
+npm run dev
+```
+
+- Vérifier que le composant s’affiche bien dans le navigateur
+- Ajouter du style simple si souhaité, mais ce n’est pas l’objectif principal
+
+## 7. Pour aller plus loin (optionnel)
+
+- Créer une liste de MemberCard à partir d’un tableau de membres
+- Créer un fichier data/members.js pour externaliser les données
+- Structurer le code proprement dans des dossiers (components/, data/, styles/, etc.)
+
+Exemple dans App.js
+
+```js
+import MemberCard from "./components/MemberCard";
+import { members } from "./data/members";
+
+function App() {
+  return (
+    <div className="app">
+      <h1>Simplon Connect</h1>
+      {members.map((member) => (
+        <MemberCard
+          key={JSON.stringify(member)}
+          name={`${member.firstName} ${member.lastName}`}
+          tech={member.tech}
+          message={member.message}
+        />
+      ))}
+    </div>
+  );
+}
+
+export default App;
+```
