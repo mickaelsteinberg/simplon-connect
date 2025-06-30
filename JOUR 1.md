@@ -36,7 +36,7 @@ Observer les fichiers importants :
 **2. Exploration de la structure (milieu de journée)**
 
 Livrable attendu : _compréhension orale et écrite de la structure._
-- Tracer le chemin du rendu : comment un composant React se retrouve dans la page HTML ?
+- Tracer le chemin du rendu / lifecycle : comment un composant React se retrouve dans la page HTML ?
 - Identifier le point d’entrée de l’application.
 - Comprendre ce que fait ReactDOM.
 - Modifier le App.jsx pour y insérer un composant de votre choix.
