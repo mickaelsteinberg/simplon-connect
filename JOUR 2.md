@@ -18,6 +18,7 @@
      - Prénom + Nom
      - Tech préférée
      - Message personnel
+     - URL de la photo de profile
    - Les données sont reçues via des `props`.
 
 2. **Création d’un tableau de membres**
