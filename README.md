@@ -38,6 +38,7 @@ Retours fréquents : revues de code quotidiennes, présentations intermédiaires
 ## LETS GOOO !
 
 - [JOUR 1 — DÉCOUVERTE DE REACT & MISE EN PLACE DU PROJET](https://github.com/mickaelsteinberg/simplon-connekt/blob/main/JOUR%201.md)
-    - [Solution du jour 1](https://github.com/mickaelsteinberg/simplon-connect/blob/jour-1/solutions/jour-1/README.md)
+    - [Solution du jour 1](https://github.com/mickaelsteinberg/simplon-connect/blob/main/solutions/jour-1/README.md)
 - [JOUR 2 — Composants, JSX, props](https://github.com/mickaelsteinberg/simplon-connekt/blob/main/JOUR%202.md)
+    - [Solution du jour 2](https://github.com/mickaelsteinberg/simplon-connect/blob/main/solutions/jour-2/README.md)
 - [JOUR 3 — États et interactions (useState)](https://github.com/mickaelsteinberg/simplon-connekt/blob/main/JOUR%203.md)
