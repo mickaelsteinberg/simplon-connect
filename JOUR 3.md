@@ -1,6 +1,6 @@
 # JOUR 3 – États et interactions (useState)
 
-## Contexte pédagogique
+## MISE EN SITUATION CLIENT
 
 Maintenant que l'application peut afficher des données, il est temps de la rendre interactive. Le client souhaite pouvoir ajouter un membre via un formulaire. À vous de mettre en place un système d’état (`useState`) pour que l’interface réagisse aux actions de l’utilisateur.
 
