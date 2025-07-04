@@ -43,3 +43,4 @@ Retours fréquents : revues de code quotidiennes, présentations intermédiaires
     - [Solution du jour 2](https://github.com/mickaelsteinberg/simplon-connect/blob/main/solutions/jour-2/README.md)
 - [JOUR 3 — États et interactions (useState)](https://github.com/mickaelsteinberg/simplon-connekt/blob/main/JOUR%203.md)
 - [JOUR 4 – Suppression, filtrage et persistance des données](https://github.com/mickaelsteinberg/simplon-connekt/blob/main/JOUR%204.md)
+- [JOUR 5 – Révisions, bonnes pratiques et gestion des listes avec React](https://github.com/mickaelsteinberg/simplon-connekt/blob/main/JOUR%205.md)
