@@ -58,7 +58,12 @@ Comparez le comportement et les warnings.
 ```js
 import { useState } from "react";
 
-const initialNames = ["Alice", "Bob", "Charlie", "Diana"];
+const initialNames = [
+  { id: 1, name: "Alice" },
+  { id: 2, name: "Bob" },
+  { id: 3, name: "Charlie" },
+  { id: 4, name: "Diana" },
+];
 
 function ShuffleList() {
   const [names, setNames] = useState(initialNames);
@@ -69,10 +74,24 @@ function ShuffleList() {
 
   return (
     <div>
-      <button onClick={shuffle}>Mélanger</button>
+      <button
+        onClick={shuffle}
+        className="mb-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+      >
+        Mélanger
+      </button>
       <ul>
-        {names.map((name) => (
-          <li>{name}</li> // Ajoutez ou retirez la prop key ici pour tester
+        {names.map((person, index) => (
+          <li
+            className="mb-4 p-4 border rounded flex items-center gap-4 bg-gray-50"
+          >
+            <span className="font-semibold w-24">
+              {index}. {person.name}
+            </span>
+            <input
+              type="checkbox"
+            />
+          </li>
         ))}
       </ul>
     </div>
